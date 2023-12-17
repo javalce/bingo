@@ -1,7 +1,12 @@
 import { defineConfig, presetIcons, presetUno, presetWebFonts } from 'unocss';
 
 export default defineConfig({
-  theme: {},
+  theme: {
+    colors: {
+      customBgLight: '#2455c0',
+      customBgDark: '#0b142c',
+    },
+  },
   presets: [
     presetUno(),
     presetWebFonts({

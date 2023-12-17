@@ -1,0 +1,7 @@
+main {
+  display: grid;
+  grid-template-areas:
+    'player bingo cpu'
+    'numbers numbers numbers';
+  place-content: center;
+}
